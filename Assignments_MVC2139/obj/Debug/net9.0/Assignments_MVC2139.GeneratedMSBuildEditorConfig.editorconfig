@@ -28,16 +28,20 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
+[C:/comp2139/COMP2139/Assignments_MVC2139/Assignments_MVC2139/Assignments_MVC2139/Views/Events/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/comp2139/COMP2139/Assignments_MVC2139/Assignments_MVC2139/Assignments_MVC2139/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/comp2139/COMP2139/Assignments_MVC2139/Assignments_MVC2139/Assignments_MVC2139/Views/Home/Events.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFdmVudHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/comp2139/COMP2139/Assignments_MVC2139/Assignments_MVC2139/Assignments_MVC2139/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/comp2139/COMP2139/Assignments_MVC2139/Assignments_MVC2139/Assignments_MVC2139/Views/Purchases/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVyY2hhc2VzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/comp2139/COMP2139/Assignments_MVC2139/Assignments_MVC2139/Assignments_MVC2139/Views/Shared/Error.cshtml]
