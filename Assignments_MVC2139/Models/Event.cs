@@ -7,7 +7,7 @@ public class Event
     [Key]
     public int Id { get; set; }
     [Required]
-    public string EventTitle {get; set;}
+    public string Title {get; set;}
     [Required]
     public string Category {get; set;}
     [DataType(DataType.Date)]

@@ -1,1 +1,36 @@
-﻿<h2>Event List</h2>
+﻿<table class="table">
+    <thead>
+    <tr>
+        <th>Event ID</th>
+        <th>Title</th>
+        <th>Category</th>
+        <th>Date and Time</th>
+        <th>Ticket Prices</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var e in Model)
+    {
+        <tr>
+            <td>@e.Id</td>
+            <td>@e.Title</td>
+            <td>@e.Category</td>
+            <td>@e.Date.ToString("MM/dd/yyyy")</td>
+            <td>@e.TicketPrice</td>
+            <td>@e.AvailableTickets</td>
+            <td>
+                <a asp-action="Details" asp-route-id="@e.Id" class="btn btn-info">Details</a>
+                <a asp-action="Edit" asp-route-id="@e.Id" class="btn btn-secondary">Edit</a>
+                <a asp-action="Delete" asp-route-id="@e.Id" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<!-- Button to create a new task -->
+<a asp-action="Create" asp-route-projectId="@ViewBag.Id" class=" btn btn-primary">Create New Task</a>
+
+<!-- Button to go back to the list of projects -->
+<a asp-controller="Project" asp-action="Index" class="btn btn-secondary">Back to Projects</a>
